@@ -1,0 +1,229 @@
+.body-container {
+    text-align: center;
+    padding: 0 12%;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-image: url("images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+}
+
+/* headings */
+.section-heading,
+.subsection-heading {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+/* buttons */
+button {
+    border: 0;
+    padding: 0.8rem 2.5rem;
+    border-radius: 100px;
+    color: white;
+    margin: 1.5rem 0.3rem 10rem;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.ios-button {
+    background-color: hsl(171, 66%, 44%);
+    border-bottom: 3px solid hsl(171, 65%, 40%);
+}
+
+.mac-button {
+    background-color: hsl(233, 100%, 69%);
+    border-bottom: 3px solid hsl(233, 71%, 61%);
+}
+
+/* text  */
+.section-text,
+.subsection-text {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.7;
+}
+.section-text {
+    font-size: 16.5px;
+}
+
+.subsection-text {
+    font-size: 15.5px;
+}
+
+/* header section  */
+header img {
+    padding: 9rem 0 3rem;
+}
+
+header .section-text {
+    padding: 0 22%;
+    font-size: 18px;
+}
+
+/* track your snippets */
+.section1 .section-text {
+    padding: 0 20% 4rem;
+}
+
+.section1 .row {
+    margin: 6rem 0;
+}
+
+.computer-text {
+    text-align: left;
+    padding: 0 6.3rem;
+}
+
+.computer {
+    transform: scale(1.4);
+    position: relative;
+    left: -7.2rem;
+}
+
+/* access clipboard anywhere */
+.section2 {
+    padding: 9rem 0 4rem;
+}
+
+.section2 .section-text {
+    padding: 0 20% 5rem;
+}
+
+/* supercharge your workflow */
+.features {
+    padding: 4rem 0 9rem;
+}
+
+.features img {
+    padding-bottom: 2rem;
+}
+
+.features .list-logo {
+    padding-bottom: 1.45rem;
+}
+
+.companies {
+    justify-content: space-between;
+    padding-bottom: 9rem;
+}
+
+/* call to section  */
+.section4 p {
+    padding: 0 20%;
+}
+
+/* footer section  */
+footer {
+    background-color: hsl(0, 0%, 93%);
+    color: hsl(210, 10%, 33%);
+    text-align: left;
+    padding: 3rem 7% 2rem;
+}
+
+footer a:hover {
+    color: hsl(171, 66%, 44%);
+    text-decoration: none;
+}
+
+.footer-logo {
+    width: 4rem;
+}
+
+.footer-text a {
+    color: hsl(210, 10%, 33%);
+    display: block;
+    padding: 0.4rem;
+}
+
+.social-links {
+    text-align: right;
+
+}
+
+.social-link {
+    margin: 0.7rem;
+    color: hsl(210, 10%, 33%);
+}
+
+
+@media (max-width:400px){
+    .body-container{
+        background-image: url("images/bg-header-mobile.png");
+        padding: 0 8%;
+    } 
+
+    /* header  */
+    header .section-heading{
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+    header .section-text{
+        padding: 0 1%;
+        font-size: 16px;
+    }
+    button{
+        padding: 00.8rem 5.4rem;
+    }
+    .ios-button{
+        margin: 2rem 0 0;
+    }
+
+    /* section1  */
+    .section-heading{
+        line-height: 1.5;
+        font-size: 1.7rem;
+    }
+    .section1 .section-text{
+        padding: 0.9rem 0 2rem;
+    }
+    .computer{
+        left: 0;
+        transform: scale(1.1);
+    }
+    .computer-text{
+        margin: 2rem 0;
+        padding: 1rem;
+        text-align: center;
+    }
+    .section1 .subsection-heading{
+        margin-top: 2rem;
+    }
+
+    /* section2  */
+    .section2{
+        padding: 2rem 0 4rem ;
+    }
+    .section2 .section-text{
+        padding:1rem  0 3rem ;
+    }
+    
+    /* section3  */
+    .features .col-lg-4{
+        margin-top: 2rem;
+    }
+    .features{
+        padding: 4rem 0 5rem;
+    }
+    .companies .col-lg-2{
+        margin-top: 4rem;
+    }
+
+    /* section4  */
+    .section4 .section-text{
+        padding: 0;
+    }
+
+    /* footer  */
+    footer{
+        text-align: center;
+    }
+    .social-links{
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+    footer a{
+        margin-top: 1.5rem;
+    }
+
+}
